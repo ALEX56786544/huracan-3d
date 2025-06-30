@@ -32,7 +32,7 @@
     scene.add(ambientLight);
 
     const loader = new GLTFLoader();
-    loader.load('lamborghini_huracan_lp-6104_2014.glb', function (gltf) {
+    loader.load('huracan/lamborghini_huracan_lp-6104_2014.glb', function (gltf) {
       scene.add(gltf.scene);
     }, undefined, function (error) {
       console.error('Ошибка загрузки GLB:', error);
